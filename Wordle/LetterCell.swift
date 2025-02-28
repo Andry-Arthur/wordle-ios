@@ -50,7 +50,18 @@ class LetterCell: UICollectionViewCell {
    */
   func set(style: LetterCellStyle) {
     // START YOUR CODE HERE
-    // ...
+      if (style == .incorrect) {
+          backgroundColor = UIColor(red: 0.23, green: 0.23, blue: 0.24, alpha: 1)
+          layer.borderColor = CGColor(red: 0.23, green: 0.23, blue: 0.24, alpha: 1)
+      }
+      else if (style == .correctLetterOnly) {
+          backgroundColor = UIColor(red: 0.69, green: 0.63, blue: 0.30, alpha: 1)
+          layer.borderColor = CGColor(red: 0.69, green: 0.63, blue: 0.30, alpha: 1)
+      }
+      else if (style == .correctLetterAndPosition){
+          backgroundColor = UIColor(red: 0.38, green: 0.55, blue: 0.33, alpha: 1)
+          layer.borderColor = CGColor(red: 0.38, green: 0.55, blue: 0.33, alpha: 1)
+      }
     // END YOUR CODE HERE
   }
 }
