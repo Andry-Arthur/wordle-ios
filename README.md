@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I enjoyed familiarizing myself with Swift and Xcode while developing an interactive application. 
 
 ## License
 
